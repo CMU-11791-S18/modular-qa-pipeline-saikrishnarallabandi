@@ -1,0 +1,45 @@
+
+Running pipeline with featurizer:  <CountFeaturizer.CountFeaturizer object at 0x7f3d95c65ad0>  and classifier  <MultinomialNaiveBayes.MultinomialNaiveBayes object at 0x7f3d95c65b50>
+Accuracy: 0.0388658808538
+Precision: 0.0388658808538
+Recall: 0.0388658808538
+F-measure: 0.0388658808538
+
+
+Running pipeline with featurizer:  <CountFeaturizer.CountFeaturizer object at 0x7f3d95c65ad0>  and classifier  <SVMClassifier.SVMClassifier object at 0x7f3d95c65b90>
+Accuracy: 0.0350430073272
+Precision: 0.0350430073272
+Recall: 0.0350430073272
+F-measure: 0.0350430073272
+
+
+Running pipeline with featurizer:  <CountFeaturizer.CountFeaturizer object at 0x7f3d95c65ad0>  and classifier  <mlpClassifier.mlpClassifier object at 0x7f3d95c65bd0>
+Accuracy: 0.0468302007009
+Precision: 0.0468302007009
+Recall: 0.0468302007009
+F-measure: 0.0468302007009
+
+
+Running pipeline with featurizer:  <TfIdfFeaturizer.TfIdfFeaturizer object at 0x7f3d95c65b10>  and classifier  <MultinomialNaiveBayes.MultinomialNaiveBayes object at 0x7f3d95c65b50>
+Accuracy: 0.0340872889455
+Precision: 0.0340872889455
+Recall: 0.0340872889455
+F-measure: 0.0340872889455
+
+
+Running pipeline with featurizer:  <TfIdfFeaturizer.TfIdfFeaturizer object at 0x7f3d95c65b10>  and classifier  <SVMClassifier.SVMClassifier object at 0x7f3d95c65b90>
+Accuracy: 0.0340872889455
+Precision: 0.0340872889455
+Recall: 0.0340872889455
+F-measure: 0.0340872889455
+
+
+Running pipeline with featurizer:  <TfIdfFeaturizer.TfIdfFeaturizer object at 0x7f3d95c65b10>  and classifier  <mlpClassifier.mlpClassifier object at 0x7f3d95c65bd0>
+/home/srallaba/.local/lib/python2.7/site-packages/sklearn/neural_network/multilayer_perceptron.py:564: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+Accuracy: 0.0579802484868
+Precision: 0.0579802484868
+Recall: 0.0579802484868
+F-measure: 0.0579802484868
+
+
